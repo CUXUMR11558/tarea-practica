@@ -1,0 +1,12 @@
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+}
+body{
+    background-image: url(../IMAGES/fondore.jpg);
+}
+#div1{
+    background-color: rgb(3, 3, 52);
+    color: white;
+}

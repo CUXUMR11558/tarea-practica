@@ -1,0 +1,142 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: black;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 9px 10%;
+
+}
+.header .logo{
+    cursor: pointer;
+}
+.header .logo .logo2{
+    height: 20px;
+    width: 10px;
+    transition: all;
+}
+.logo2{
+    height: 60px;
+    width: 60px;
+    border: 100px;
+
+}
+.header .logo .logo2:hover{
+    transform: scale(1.2);
+}
+.header .navlink{
+    list-style: none;
+}
+
+.header .navlink li{
+    display: inline-block;
+    padding: 0 20px;
+    font-size: 20px;
+}
+
+.header .navlink li:hover{
+    transform: scale(1.1);
+}
+.header .navlink a{
+    font-size: 20px;
+    color: azure;
+    text-decoration: none;
+}
+
+.header .navlink li a:hover{
+    color: yellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+    background-image: url(../IMAGES/fondom.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.733);
+}
+
+#divh1 {
+    background-color: black;
+    border-radius: 40px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: -40px ;
+    margin-bottom: 20px;
+
+}
+
+h1{
+    text-align: center;
+    color:white;
+    font-size: 45px;
+}
+
+h2{
+    color: white;
+    text-align: left;
+    font-size: 35px;
+    margin-left: 30px;
+}
+
+#divh2{
+    background-color:rgba(0, 0, 0, 0.808);
+   margin: 0 auto;
+    border-radius: 50px;
+}
+
+#divh3{
+    background-color: rgba(0, 0, 0, 0.87);
+    margin: 0 auto;
+    border-radius: 50px;
+}
+
+#divh4{
+    background-color: rgba(0, 0, 0, 0.776);
+    margin:  0 auto;
+    border-radius: 50px;
+}
+
+
+#divh5{ 
+    background-color: rgba(0, 0, 0, 0.765);
+    margin: 0 auto;
+    border-radius: 50px;
+}
+
+
+
+
+
+table{
+    margin: 0 auto;
+}
+.m1{
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+}
+
+.m2{
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+}

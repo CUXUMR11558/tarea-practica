@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: black;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 9px 10%;
+
+}
+.header .logo{
+    cursor: pointer;
+}
+.header .logo .logo2{
+    height: 20px;
+    width: 10px;
+    transition: all;
+}
+.logo2{
+    height: 60px;
+    width: 60px;
+    border: 100px;
+
+}
+.header .logo .logo2:hover{
+    transform: scale(1.2);
+}
+.header .navlink{
+    list-style: none;
+}
+
+.header .navlink li{
+    display: inline-block;
+    padding: 0 20px;
+    font-size: 20px;
+}
+
+.header .navlink li:hover{
+    transform: scale(1.1);
+}
+.header .navlink a{
+    font-size: 20px;
+    color: azure;
+    text-decoration: none;
+}
+
+.header .navlink li a:hover{
+    color: yellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+    background-image: url(../IMAGES/fondo5.jpg);
+}
+.divtitle{
+    background-color: rgba(0, 0, 0, 0.831);
+    margin-left: 300px;
+    margin-right: 300px;
+    border-radius: 45px;
+}
+
+.divt{
+    background-color: black;
+    color: white;
+    margin-left: 10px;
+    margin-right: 900px;
+    text-shadow: 5px 7px 9px;
+    border-radius: 50px;
+
+
+}
+#h11{
+    color: white;
+    text-shadow: 3px 5px 6px;
+    font-size: 45px;
+    text-align: center;
+}
+.h111{
+    margin-left: 25px;
+}
+
+
+.divimg{
+    background-color: rgba(14, 156, 55, 0.893);
+    margin-left: 30px;
+    margin-right: 800px;
+    text-align: center;
+    margin-bottom: 40px;
+    border-radius: 60px;
+}
+
+.divimg1{
+    background-color: rgba(0, 0, 255, 0.868);
+    margin-left: 700px;
+    margin-right: 50px;
+    text-align: center;
+    margin-bottom: 40px;
+    border-radius: 60px;
+    margin-top: -500px;
+}
+.img1{
+    margin-top: 50px;
+    width: 400px;   
+    height: 350px;
+    border-radius: 45px;
+    margin-bottom: 50px;
+
+   
+}
+.img2{
+    width: 350px;
+    height: 300px;
+    border-radius: 45px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.subti{
+    background-color: black;
+    border-radius: 80px;
+}
+.h1111{
+    color: white;
+    text-align: center;
+    text-shadow: 3px 7px 9px;
+    font-size: 35px;
+}
+
+.divmapa{
+    text-align: center;
+    border-radius: 80px;
+}
+

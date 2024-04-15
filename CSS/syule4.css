@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: black;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 9px 10%;
+
+}
+.header .logo{
+    cursor: pointer;
+}
+.header .logo .logo2{
+    height: 20px;
+    width: 10px;
+    transition: all;
+}
+.logo2{
+    height: 60px;
+    width: 60px;
+    border: 100px;
+
+}
+.header .logo .logo2:hover{
+    transform: scale(1.2);
+}
+.header .navlink{
+    list-style: none;
+}
+
+.header .navlink li{
+    display: inline-block;
+    padding: 0 20px;
+    font-size: 20px;
+}
+
+.header .navlink li:hover{
+    transform: scale(1.1);
+}
+.header .navlink a{
+    font-size: 20px;
+    color: azure;
+    text-decoration: none;
+}
+
+.header .navlink li a:hover{
+    color: yellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+    background-image: url(../IMAGES/fondomision.jpeg);
+}
+
+h1{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.divm{
+    background-color: rgba(0, 0, 0, 0.811);
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+h2{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+p{
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 40px;
+    color: white;
+    font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.divv{
+    background-color: rgba(0, 0, 0, 0.811);
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+img{
+    margin-top: 40px;
+    width: 400px;
+    height: 400px;
+    margin-bottom: 40px;
+}
+
+.divimag{
+    text-align: center;
+}
+.divimg1{
+    text-align: center;
+}

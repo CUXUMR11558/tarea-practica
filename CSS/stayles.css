@@ -1,0 +1,38 @@
+body{
+    background-image: url(../IMAGES/fondo.webp) ;
+}
+#carouselExampleCaptions{
+    max-height: 500px;
+    font-size: 25px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.carousel-item img {
+    max-height: 500px; /* Ajusta la altura máxima de las imágenes */
+    width: 500px; /* Para mantener la proporción de la imagen */
+  }
+  .navbar-nav .nav-link.active:hover,
+    .navbar-nav .nav-link:hover {
+      color: #fff; /* Cambia el color de texto al pasar el cursor sobre los enlaces */
+      background-color: black; /* Cambia el color de fondo al pasar el cursor sobre los enlaces */
+      border-radius: 5px; /* Añade bordes redondeados al elemento */
+    }
+.div1{
+  margin-left: 200px;
+  margin-right:200px;
+  text-align: justify;
+  background-color: rgba(255, 255, 255, 0.514);
+  padding: 20px;
+
+}
+.servicio {
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  height: 400px;
+  text-align: justify;
+  font-size: 15px;
+}
+

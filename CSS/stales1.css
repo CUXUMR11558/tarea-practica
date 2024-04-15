@@ -1,0 +1,13 @@
+body{
+    background-image: url(../IMAGES/fondo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+p{
+  text-align: justify;
+}
+/* .div1{
+    background-color: rgba(204, 204, 208, 0.532);
+
+
+} */
